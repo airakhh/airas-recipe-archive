@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recipe Archive - Sweet</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/organized.css"> 
+</head>
+    <body>
+        <nav class="navbar navbar-light fixed-top p-4">
+            <div class="container-fluid">
+                <button class="btn p-0 border-0 d-flex align-items-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav">
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+            </div>
+        </nav>
+
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNav">
+            <div class="offcanvas-header">
+                <h2 class="offcanvas-title eb-garamond-bold">Explore!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="offcanvas-body">
+                    <input type="search" id="searchBar" class="form-control eb-garamond-regular" placeholder="Search recipes...">
+                    <ul id="search-results" class="list-unstyled mt-3"></ul>
+                </div>
+                <ul class="navbar-nav eb-garamond-regular" style="font-size: 1.5rem;">
+                    <li class="nav-item"><a class="nav-link" href="main.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sweet.html">Sweet Treats</a></li>
+                    <li class="nav-item"><a class="nav-link" href="savory.html">Savory Bites</a></li>
+                    <li class="nav-item"><a class="nav-link" href="purpose.html">Purpose</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="purpose">
+            <h1> Hello! I am Aira Khawar,</h1>
+            <h2>and I love making food for my friends and family!</h2>
+            <h2>Many people end up enjoying the food and then ask for the recipe. To make it easier, I created Aira's Recipe Archive.</h2>
+            <h2>Enjoy! These are some of the well-tested recipies me and my sister have discovered over the years and have made multiple times.</h2>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/search.js"></script>
+    </body>
+</html>

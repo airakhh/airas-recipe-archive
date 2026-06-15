@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recipe Archive - Savory</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/organized.css"> 
+</head>
+<body>
+    <nav class="navbar navbar-light fixed-top p-4">
+        <div class="container-fluid">
+            <button class="btn p-0 border-0 d-flex align-items-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+        </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNav">
+            <div class="offcanvas-header">
+                <h2 class="offcanvas-title eb-garamond-bold">Explore!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="offcanvas-body">
+                    <input type="search" id="searchBar" class="form-control eb-garamond-regular" placeholder="Search recipes...">
+                    <ul id="search-results" class="list-unstyled mt-3"></ul>
+                </div>
+                <ul class="navbar-nav eb-garamond-regular" style="font-size: 1.5rem;">
+                    <li class="nav-item"><a class="nav-link" href="main.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sweet.html">Sweet Treats</a></li>
+                    <li class="nav-item"><a class="nav-link" href="savory.html">Savory Bites</a></li>
+                    <li class="nav-item"><a class="nav-link" href="purpose.html">Purpose</a></li>
+                </ul>
+            </div>
+    </div>
+
+    <div class="container py-5">
+        <h2 class="eb-garamond-bold mb-5 text-center display-2" style="color: #ff7a00;">Savory Bites</h2>
+        
+        <div class="row g-5"> 
+            
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card recipe-card h-100 shadow-sm border-0">
+                    <img src="../images/korean garlic buns.png" class="card-img-top" alt="Korean Garlic Buns">
+                    <div class="card-body text-center p-4">
+                        <h5 class="card-title eb-garamond-bold">Korean Garlic Buns</h5>
+                        <a href="recipe.html?id=korean-garlic-buns" class="btn btn-primary eb-garamond-regular mt-3">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card recipe-card h-100 shadow-sm border-0">
+                    <img src="../images/red sauce pasta.JPG" class="card-img-top" alt="Spicy Red Pasta">
+                    <div class="card-body text-center p-4">
+                        <h5 class="card-title eb-garamond-bold">Spicy Red Pasta</h5>
+                        <a href="recipe.html?id=spicy-red-pasta" class="btn btn-primary eb-garamond-regular mt-3">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card recipe-card h-100 shadow-sm border-0">
+                    <img src="../images/caeser salad.JPG" class="card-img-top" alt="Caesar Salad Sauce">
+                    <div class="card-body text-center p-4">
+                        <h5 class="card-title eb-garamond-bold">Caesar Salad Sauce</h5>
+                        <a href="recipe.html?id=caesar-salad-sauce" class="btn btn-primary eb-garamond-regular mt-3">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card recipe-card h-100 shadow-sm border-0">
+                    <img src="../images/ranch.jpeg" class="card-img-top" alt="Ranch">
+                    <div class="card-body text-center p-4">
+                        <h5 class="card-title eb-garamond-bold">Ranch</h5>
+                        <a href="recipe.html?id=ranch" class="btn btn-primary eb-garamond-regular mt-3">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card recipe-card h-100 shadow-sm border-0">
+                    <img src="../images/spicy potato.JPG" class="card-img-top" alt="Spicy Potato">
+                    <div class="card-body text-center p-4">
+                        <h5 class="card-title eb-garamond-bold">Spicy Potato</h5>
+                        <a href="recipe.html?id=spicy-potato" class="btn btn-primary eb-garamond-regular mt-3">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card recipe-card h-100 shadow-sm border-0">
+                    <img src="../images/turkish pasta.JPG" class="card-img-top" alt="Turkish Pasta">
+                    <div class="card-body text-center p-4">
+                        <h5 class="card-title eb-garamond-bold">Turkish Pasta</h5>
+                        <a href="recipe.html?id=turkish-pasta" class="btn btn-primary eb-garamond-regular mt-3">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card recipe-card h-100 shadow-sm border-0">
+                    <img src="../images/pretzel.JPG" class="card-img-top" alt="Pretzels">
+                    <div class="card-body text-center p-4">
+                        <h5 class="card-title eb-garamond-bold">Pretzels</h5>
+                        <a href="recipe.html?id=pretzels" class="btn btn-primary eb-garamond-regular mt-3">View Recipe</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>

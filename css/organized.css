@@ -1,0 +1,198 @@
+/* Background */
+body {
+    background-image: url("../images/background/2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    padding-bottom: 50px; 
+}
+
+/* Fonts */
+.eb-garamond-bold {
+    font-family: "EB Garamond", serif;
+    font-weight: 600;
+}
+.eb-garamond-regular {
+    font-family: "EB Garamond", serif;
+    font-weight: 400;
+}
+
+
+.recipe-card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(197, 90, 2, 0.2);
+    transition: all 0.35s ease;
+    height: 100%; /* Keeps them uniform in the grid */
+    border: none;
+    background-color: white;
+}
+
+/* Image Styling */
+.recipe-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/*Card Body/
+.card-body {
+    padding: 1.5rem !important;
+}
+
+
+.recipe-card:hover {
+    transform: translateY(-15px) scale(1.03); 
+    box-shadow:
+        0 0 10px #ff7a00,
+        0 0 15px #ff7a00,
+        0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Button  */
+.btn-primary {
+    background-color: #ff7a00;
+    border: none;
+    padding: 10px 20px;
+}
+
+.btn-primary:hover {
+    background-color: #ff5500;
+}
+
+
+.card-title {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+@media (max-width: 575px) {
+    .recipe-card {
+        transform: scale(0.9); 
+        margin-bottom: 0 !important;
+    }
+}
+
+
+
+/* Offcanvas Menu */
+
+
+.offcanvas {
+    background-color: #fffaf0;
+    max-width: 300px;
+}
+
+
+/* Navbar Layout */
+
+
+.navbar {
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 70px !important; 
+}
+
+.navbar .container-fluid {
+    justify-content: flex-start !important; 
+}
+
+
+/* Hamburger Icon */
+
+
+.hamburger {
+    width: 30px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.hamburger span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #ff7a00; 
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+
+
+
+
+/* Positioning for Mobile/Tablet */
+@media (max-width: 991px) {
+    .navbar .btn {
+        position: absolute;
+    }
+}
+
+
+@media (max-width: 991px) {
+    body {
+        background-image: url("../images/background/mid2.png");
+    }
+}
+
+
+@media (max-width: 575px) {
+    body {
+        background-image: url("../images/background/mini2.png");
+    }
+}
+@media (max-width: 575px) {
+    .navbar {
+        padding-left: 27px !important;
+    }
+}
+.nav-link:hover{
+    color: #ff5500;
+}
+
+#search-results {
+    background: #fffaf0;
+    border: 1px solid #ff7a00;
+    border-radius: 8px;
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#search-results li:hover {
+    background-color: rgba(255, 122, 0, 0.1);
+}
+
+.purpose {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 80vh; 
+    padding: 40px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.purpose h1 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 800;
+    color: #ff7a00; 
+    margin-bottom: 20px;
+    font-size: 3.5rem;
+}
+
+.purpose h2 {
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    color: #555; 
+    margin-bottom: 25px;
+    line-height: 1.6;
+}

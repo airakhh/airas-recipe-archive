@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aira's recipe archive</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://db.onlinewebfonts.com/c/b26c8a59ea13cacf5b85141de4c62d7e?family=Handelson-Four" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <nav class="navbar navbar-light fixed-top p-4">
+        <div class="container-fluid">
+            <button class="btn p-0 border-0 d-flex align-items-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNav">
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+        </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNav">
+            <div class="offcanvas-header">
+                <h2 class="offcanvas-title eb-garamond-bold">Explore!</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="offcanvas-body">
+                    <input type="search" id="searchBar" class="form-control eb-garamond-regular" placeholder="Search recipes...">
+                    <ul id="search-results" class="list-unstyled mt-3"></ul>
+                </div>
+                <ul class="navbar-nav eb-garamond-regular" style="font-size: 1.5rem;">
+                    <li class="nav-item"><a class="nav-link" href="main.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sweet.html">Sweet Treats</a></li>
+                    <li class="nav-item"><a class="nav-link" href="savory.html">Savory Bites</a></li>
+                    <li class="nav-item"><a class="nav-link" href="purpose.html">Purpose</a></li>
+                </ul>
+            </div>
+    </div>
+    <section class="trending">
+        <div class="container">
+            <div class="swiper tranding-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide tranding-slide" id="korean-garlic-buns">
+                        <div class="card recipe-card">
+                            <img src="../images/korean garlic buns.png" class="card-img-top" alt="Korean Garlic Buns">
+                            <div class="card-body text-center">
+                                <h5 class="card-title eb-garamond-bold">Korean Garlic Buns</h5>
+                                <a href="recipe.html?id=korean-garlic-buns" class="btn btn-primary eb-garamond-regular">View Recipe</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide tranding-slide" id="matcha-tiramisu">
+                        <div class="card recipe-card">
+                            <img src="../images/matcha tiramisu.JPG" class="card-img-top" alt="Matcha Tiramisu">
+                            <div class="card-body text-center">
+                                <h5 class="card-title eb-garamond-bold">Matcha Tiramisu</h5>
+                                <a href="recipe.html?id=matcha-tiramisu" class="btn btn-primary eb-garamond-regular">View Recipe</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide tranding-slide" id="classic-tiramisu">
+                        <div class="card recipe-card">
+                            <img src="../images/tiramisu.JPG" class="card-img-top" alt="Classic Tiramisu">
+                            <div class="card-body text-center">
+                                <h5 class="card-title eb-garamond-bold">Classic Tiramisu</h5>
+                                <a href="recipe.html?id=classic-tiramisu" class="btn btn-primary eb-garamond-regular">View Recipe</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide tranding-slide" id="sweet-potato-cake">
+                        <div class="card recipe-card">
+                            <img src="../images/sweet potato cake.jpg" class="card-img-top" alt="Sweet Potato Cake">
+                            <div class="card-body text-center">
+                                <h5 class="card-title eb-garamond-bold">Sweet Potato Cake</h5>
+                                <a href="recipe.html?id=sweet-potato-cake" class="btn btn-primary eb-garamond-regular">View Recipe</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide tranding-slide" id="strawberries-cream-cake">
+                        <div class="card recipe-card">
+                            <img src="../images/strawberries and cream cake.JPG" class="card-img-top" alt="Strawberries & Cream Cake">
+                            <div class="card-body text-center">
+                                <h5 class="card-title eb-garamond-bold">Strawberries & Cream Cake</h5>
+                                <a href="recipe.html?id=strawberries-cream-cake" class="btn btn-primary eb-garamond-regular">View Recipe</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide tranding-slide" id="spicy-red-pasta">
+                        <div class="card recipe-card">
+                            <img src="../images/red sauce pasta.JPG" class="card-img-top" alt="Spicy Red Pasta">
+                            <div class="card-body text-center">
+                                <h5 class="card-title eb-garamond-bold">Spicy Red Pasta</h5>
+                                <a href="recipe.html?id=spicy-red-pasta" class="btn btn-primary eb-garamond-regular">View Recipe</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide tranding-slide" id="caesar-salad-sauce">
+                        <div class="card recipe-card">
+                            <img src="../images/caeser salad.JPG" class="card-img-top" alt="Caesar Salad Sauce">
+                            <div class="card-body text-center">
+                                <h5 class="card-title eb-garamond-bold">Caesar Salad Sauce</h5>
+                                <a href="recipe.html?id=caesar-salad-sauce" class="btn btn-primary eb-garamond-regular">View Recipe</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide tranding-slide" id="chocolate-chip-cookies">
+                        <div class="card recipe-card">
+                            <img src="../images/cookies.JPG" class="card-img-top" alt="Chocolate Chip Cookies">
+                            <div class="card-body text-center">
+                                <h5 class="card-title eb-garamond-bold">Chocolate Chip Cookies</h5>
+                                <a href="recipe.html?id=chocolate-chip-cookies" class="btn btn-primary eb-garamond-regular">View Recipe</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide tranding-slide" id="pretzels">
+                        <div class="card recipe-card">
+                            <img src="../images/pretzel.JPG" class="card-img-top" alt="Pretzels">
+                            <div class="card-body text-center">
+                                <h5 class="card-title eb-garamond-bold">Pretzels</h5>
+                                <a href="recipe.html?id=pretzels" class="btn btn-primary eb-garamond-regular">View Recipe</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide tranding-slide" id="cream-cheese-frosting">
+                        <div class="card recipe-card">
+                            <img src="../images/cream cheese frosting.JPG" class="card-img-top" alt="Cream Cheese Frosting">
+                            <div class="card-body text-center">
+                                <h5 class="card-title eb-garamond-bold">Cream Cheese Frosting</h5>
+                                <a href="recipe.html?id=cream-cheese-frosting" class="btn btn-primary eb-garamond-regular">View Recipe</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide tranding-slide" id="ranch">
+                        <div class="card recipe-card">
+                            <img src="../images/ranch.jpeg" class="card-img-top" alt="Ranch">
+                            <div class="card-body text-center">
+                                <h5 class="card-title eb-garamond-bold">Ranch</h5>
+                                <a href="recipe.html?id=ranch" class="btn btn-primary eb-garamond-regular">View Recipe</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide tranding-slide" id="spicy-potato">
+                        <div class="card recipe-card">
+                            <img src="../images/spicy potato.JPG" class="card-img-top" alt="Spicy Potato">
+                            <div class="card-body text-center">
+                                <h5 class="card-title eb-garamond-bold">Spicy Potato</h5>
+                                <a href="recipe.html?id=spicy-potato" class="btn btn-primary eb-garamond-regular">View Recipe</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide tranding-slide" id="baked-oats">
+                        <div class="card recipe-card">
+                            <img src="../images/baked oats.JPG" class="card-img-top" alt="Baked Oats">
+                            <div class="card-body text-center">
+                                <h5 class="card-title eb-garamond-bold">Baked Oats</h5>
+                                <a href="recipe.html?id=baked-oats" class="btn btn-primary eb-garamond-regular">View Recipe</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide tranding-slide" id="turkish-pasta">
+                        <div class="card recipe-card">
+                            <img src="../images/turkish pasta.JPG" class="card-img-top" alt="Turkish Pasta">
+                            <div class="card-body text-center">
+                                <h5 class="card-title eb-garamond-bold">Turkish Pasta</h5>
+                                <a href="recipe.html?id=turkish-pasta" class="btn btn-primary eb-garamond-regular">View Recipe</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../js/slider.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>
