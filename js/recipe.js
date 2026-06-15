@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             document.getElementById('recipe-link').href = recipe.link;
 
             
-            document.getElementById('recipe-photo').src = `images/${recipe.image}`;
+            document.getElementById('recipe-photo').src = `../images/${recipe.image}`;
 
             const listDiv = document.getElementById('ingredients-list');
             listDiv.innerHTML = '';
