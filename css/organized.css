@@ -138,14 +138,14 @@ body {
 
 @media (max-width: 991px) {
     body {
-        background-image: url("../images/background/mid2.png");
+        background-image: url("../images/background/mid1.png");
     }
 }
 
 
 @media (max-width: 575px) {
     body {
-        background-image: url("../images/background/mini2.png");
+        background-image: url("../images/background/mini1.png");
     }
 }
 @media (max-width: 575px) {
